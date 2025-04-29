@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Encrypt/Decrypt</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">Emoji Encrypt/Decrypt</h1>
+    <div class="container">
+        <textarea id="input" placeholder="Enter text to encrypt or emojis to decrypt..."></textarea>
+        <div class="button-group">
+            <button onclick="encrypt()">Encrypt</button>
+            <button onclick="decrypt()">Decrypt</button>
+        </div>
+        <div class="output-container">
+            <textarea id="output" readonly placeholder="Result will appear here..."></textarea>
+            <div class="output-buttons">
+                <button class="copy-btn" onclick="copyOutput()">Copy</button>
+            </div>
+        </div>
+        <p style="text-align: center;">Made with ❤️ by Gyanesh Maurya</p>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
