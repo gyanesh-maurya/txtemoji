@@ -197,7 +197,6 @@ button:nth-child(2) { /* Decrypt button */
     }
 }
 
-/* Floating emoji decoration */
 .floating-emoji {
     position: fixed;
     opacity: 0.1;
